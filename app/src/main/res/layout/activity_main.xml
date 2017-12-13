@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F44336"
+    tools:context=".MainActivity">
+
+        <ImageView
+        android:id="@+id/natale2"
+        android:src="@drawable/natale2"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentTop="true"
+        android:scaleType="centerCrop"/>
+
+    <ImageView
+        android:id="@+id/christmas"
+        android:src="@drawable/christmas"
+        android:layout_width="match_parent"
+        android:layout_height="120dp"
+        android:layout_alignParentBottom="true"
+        android:scaleType="centerCrop"/>
+
+    <TextView
+        android:id="@+id/merry"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:padding="8dp"
+        android:layout_below="@id/natale2"
+        android:fontFamily="open_sans"
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/white"
+        android:text="Merry Christmas"/>
+
+    <TextView
+        android:id="@+id/and"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:paddingLeft="20dp"
+        android:layout_below="@id/merry"
+        android:fontFamily="open_sans"
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/white"
+        android:text="and"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="30sp"
+        android:padding="8dp"
+        android:layout_below="@id/and"
+        android:fontFamily="open_sans"
+        android:textStyle="italic|bold"
+        android:textColor="@android:color/white"
+        android:text="Happy New Year"/>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:textSize="25dp"
+        android:padding="8dp"
+        android:fontFamily="open_sans"
+        android:textColor="@android:color/white"
+        android:layout_above="@id/christmas"
+        android:text="to all of you and your families!"/>
+
+
+</RelativeLayout>
